@@ -1,0 +1,24 @@
+{
+  "name": "Developer_Profile_Generator",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:\r node index.js\r The user will be prompted for a favorite color, which will be used as the background color for cards.\r The PDF will be populated with the following:",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorna-IT/Developer_Profile_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorna-IT/Developer_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/Lorna-IT/Developer_Profile_Generator#readme"
+}
