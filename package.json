@@ -4,7 +4,9 @@
   "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:\r node index.js\r The user will be prompted for a favorite color, which will be used as the background color for cards.\r The PDF will be populated with the following:",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.3"
   },
   "devDependencies": {},
   "scripts": {
