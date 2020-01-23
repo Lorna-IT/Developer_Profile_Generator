@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github Developer Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding-bottom: 1rem;
+        }
+
+        .jumbotron {
+            padding-top: 7rem;
+        }
+
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            box-shadow: 4px 8px 8px 0 rgba(0,0,0,0.2);
+            margin-top: -4rem;
+        }
+
+        .user-profile {
+            margin-bottom: -7rem;
+            border-radius: 10px;
+            padding-bottom: 1rem;
+        }
+
+        .user-info {
+            margin-top: 5rem;
+        }
+
+        .user-info h4 {
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+        }
+
+        @media screen and (min-width: 690px) {
+            .user-cards {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 1em;
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <main>
+        <div class="jumbotron jumbotron-fluid text-center user-color">
+            <div class="container">
+                <div class="user-profile">
+                    <img src="#" alt="Github profile picture" class="rounded-circle profile-img">
+                    <h1 class="display-4">Lorna Lynch</h1>
+                    <p class="lead">I am from Lakewood, Ohio.</p>
+                    <h3>Contact Me:</h3>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Lorna-IT">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lakewood, Ohio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="www.linkedin.com/in/lorna-lynch-7ab4a815a">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="user-info text-center">
+                <h4>User Bio</h4>
+
+                <div class="user-cards">
+                    <div class="card mb-3">
+                        <div class="card-header">Public Repositories:</div>
+                        <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">Followers:</div>
+                        <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">GitHub stars:</div>
+                        <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-header">Following:</div>
+                        <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
