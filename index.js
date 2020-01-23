@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const axios = require("axios");
 const fs = require("fs");
 const util = require("util");
+const pdf = require('html-pdf');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
